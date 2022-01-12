@@ -32,3 +32,4 @@ b13 = Button(root,text = '0',width = 5 , height = 2,font = "arial 16",bd = 4,com
 b14 = Button(root,text = '.',width = 5 , height = 2,font = "arial 16",bd = 4,command=lambda:calc(".")).grid(row=4,column=1)
 b15 = Button(root,text = '-',width = 5 , height = 2,font = "arial 16",bd = 4,command=lambda:calc("-")).grid(row=4,column=2)
 b16 = Button(root,text = '=',width = 5 , height = 2,font = "arial 16",bd = 4,command=lambda:result(eval(e1.get()))).grid(row=4,column=3)
+root.mainloop()
